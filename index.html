@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Patware | Frontend Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader-content">
+            <h1 class="loader-logo">Naman<span>.</span></h1>
+
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+
+                <div class="logo">
+                    <a href="#">Naman<span>.</span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education-contact">Education & Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button id="themetoggle" class="theme-btn">
+                        <i class="ri-moon-line"></i>
+                    </button>
+                    <a href="resume/Resume.pdf" id="resumeBtn" target="_blank" class="resume-btn">
+                        <i class="ri-download-line"></i>
+                        Resume
+                    </a>
+                    <button class="menu-btn" id="menuBtn">
+                        <i class="ri-menu-3-line"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+
+        <div class="mobile-header">
+            <div class="logo">
+                <a href="#">Naman<span>.</span></a>
+            </div>
+
+            <button class="close-btn" id="closeBtn">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+
+        <ul class="mobile-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education-contact">Education & Contact</a></li>
+        </ul>
+        <div class="mobile-actions">
+            <button class="theme-btn mobile-theme" id="mobileThemeToggle">
+                <i class="ri-moon-line"></i>
+            </button>
+
+            <a href="resume/Resume.pdf" target="_blank" class="resume-btn mobile-resume">
+                <i class="ri-download-line"></i>
+                Resume
+            </a>
+        </div>
+
+    </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-left">
+                <p class="hero-small">
+                    👋 Hello, I'm
+                </p>
+                <h1 class="hero-title">
+                    <span>Naman Patware</span>
+                </h1>
+                <h2 class="hero-role">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    I build responsive, modern and user-friendly web applications using HTML,
+                    CSS, JavaScript and React. Passionate about creating beautiful UI and
+                    solving real-world problems through code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#education-contact" class="primary-btn">
+                        Hire Me
+                    </a>
+                    <a href="#projects" class="secondary-btn">
+                        View My Work
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a target="_blank" href="https://github.com/Naman-Patware">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a target="_blank" href="https://linkedin.com/in/naman-gurjar-1bb541390">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+
+                    <a target="_blank" href="mailto:ng373434@gmail.com">
+                        <i class="ri-mail-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="circle"></div>
+                <div class="profile-card">
+                    <img src="images/profile.png" alt="Naman">
+                </div>
+                <div class="profile-info">
+                    <h2>Naman Patware</h2>
+                    <p>Frontend Developer</p>
+                    <span>📍 Indore, India</span>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>JS</h3>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="stat">
+                            <h3>React</h3>
+                            <p>Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about reveal">
+            <div class="about-container">
+                <div class="about-left">
+                    <div class="image-box">
+                        <img src="images/aboutIamge.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="about-right">
+                    <h2 class="about-heading">About Me <span>.</span></h2>
+                    <p class="paragraph-1">I'm a passionate Frontend Developer and Computer Science student who enjoys
+                        building responsive, user-friendly web applications. I love turning creative ideas into clean,
+                        interactive, and real-world digital experiences.</p>
+                    <p class="paragraph-2">I have a solid foundation in HTML, CSS, JavaScript, and I'm currently
+                        expanding my skills with React. I'm a quick learner who enjoys solving problems, writing clean
+                        code, and continuously improving through hands-on projects.</p>
+                    <div class="stats-container">
+                        <div class="about-cards">
+                            <div class="about-cards-info">
+                                <i class="ri-briefcase-4-line"></i>
+                                <div class="card-title">
+                                    <span>Experience</span>
+                                    <h3>Entry Level</h3>
+                                </div>
+                            </div>
+                            <div class="about-cards-info">
+                                <i class="ri-folder-3-line"></i>
+                                <div class="card-title">
+                                    <span>2+ Completed</span>
+                                    <h3>Projects</h3>
+                                </div>
+                            </div>
+                            <div class="about-cards-info">
+                                <i class="ri-map-pin-line"></i>
+                                <div class="card-title">
+                                    <span>Indore, India</span>
+                                    <h3>Location</h3>
+                                </div>
+                            </div>
+                            <div class="about-cards-info">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div class="card-title">
+                                    <span>Open to Work</span>
+                                    <h3>Availability</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills reveal">
+            <div class="skills-container">
+                <div class="skills-header">
+                    <h2 class="skills-heading">My Skills <span>.</span></h2>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skill-card">
+                        <i class="ri-html5-fill html5"></i>
+                        <h3 class="skill-name">HTML5</h3>
+                        <span class="percentage">95%</span>
+                        <div class="progress-bar">
+                            <div class="progress html5-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-css3-fill css3"></i>
+                        <h3 class="skill-name">CSS3</h3>
+                        <span class="percentage">90%</span>
+                        <div class="progress-bar">
+                            <div class="progress css3-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-javascript-fill js"></i>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="percentage">85%</span>
+                        <div class="progress-bar">
+                            <div class="progress js-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-reactjs-line react"></i>
+                        <h3 class="skill-name">React</h3>
+                        <span class="percentage">85%</span>
+                        <div class="progress-bar">
+                            <div class="progress react-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-git-branch-line git"></i>
+                        <h3 class="skill-name">Git</h3>
+                        <span class="percentage">80%</span>
+                        <div class="progress-bar">
+                            <div class="progress git-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-github-fill github"></i>
+                        <h3 class="skill-name">GitHub</h3>
+                        <span class="percentage">85%</span>
+                        <div class="progress-bar">
+                            <div class="progress github-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-device-line responsive"></i>
+                        <h3 class="skill-name">Responsive</h3>
+                        <span class="percentage">90%</span>
+                        <div class="progress-bar">
+                            <div class="progress responsive-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="ri-cloud-line api"></i>
+                        <h3 class="skill-name">REST API</h3>
+                        <span class="percentage">70%</span>
+                        <div class="progress-bar">
+                            <div class="progress api-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects reveal">
+            <h3 class="projects-heading">My Projects <span>.</span></h3>
+            <div class="project-wrapper">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Desktop.png" alt="TaskFlow Project Screenshot">
+                        <div class="project-badge">⭐ Featured</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TaskFlow - Smart Task Manager</h3>
+                        <p class="project-description">A responsive task management application featuring CRUD
+                            operations, Local Storage, dashboard analytics, search, filters, sorting, and dark mode.</p>
+                        <div class="tech-stack">
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">LocalStorage</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://naman-patware.github.io/TaskFlow/" target="_blank"
+                                rel="noopener noreferrer" class="live-btn">
+                                Live Demo
+                                <i class="ri-external-link-line"></i>
+                            </a>
+
+                            <a href="https://github.com/Naman-patware/taskflow" target="_blank" rel="noopener noreferrer"
+                                class="github-btn">
+                                GitHub
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/portfolio1.jpeg" alt="Portfolio Website Screenshot">
+                        <div class="project-badge">⭐ Featured</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio</h3>
+                        <p class="project-description">A modern, responsive developer portfolio showcasing my skills,
+                            projects, and frontend development journey with a clean and interactive UI.</p>
+                        <div class="tech-stack">
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://your-portfolio-demo-link.com" target="_blank" rel="noopener noreferrer"
+                                class="live-btn">
+                                Live Demo
+                                <i class="ri-external-link-line"></i>
+                            </a>
+
+                            <a href="https://github.com/yourusername/portfolio" target="_blank"
+                                rel="noopener noreferrer" class="github-btn">
+                                GitHub
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education-contact" class="education-contact reveal">
+            <div class="education">
+                <h3 class="education-heading">Education <span>.</span></h3>
+                <div class="education-content">
+                    <div class="education-left">
+                        <div class="graduation-icon">
+                            <i class="ri-graduation-cap-line"></i>
+                        </div>
+                        <div class="education-timeline">
+                            <span class="timeline-line"></span>
+                            <span class="timeline-dot dot-1"></span>
+                            <span class="timeline-dot dot-2"></span>
+                        </div>
+
+                    </div>
+                    <div class="education-right">
+                        <div class="education-card">
+                            <div class="education-item">
+                                <span class="year">2025-2029</span>
+                                <h3 class="degree">Bachelor of Engineering in Computer Science</h3>
+                                <h4 class="institute">Dr. APJ Abdul Kalam University, Indore</h4>
+                                <span class="status">Currently pursuing</span>
+                            </div>
+                            <div class="education-item">
+                                <span class="year">2024-2025</span>
+                                <h3 class="degree">Higher Secondary(12th)</h3>
+                                <h4 class="board">MP Board</h4>
+                                <span class="percentage">Percentage: 82.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h3 class="contact-heading">Get In Touch<span>.</span></h3>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p class="contact-description">
+                            Have a project in mind or want to talk?<br>
+                            Feel free to reach out to me!
+                        </p>
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <div class="contact-text">
+                                <h4>Email:</h4>
+                                <span>ng373434@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <div class="contact-text">
+                                <h4>Phone:</h4>
+                                <span>+91 997761XXXX</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div class="contact-text">
+                                <h4>Location:</h4>
+                                <span>Indore, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/ng373434@gmail.com"
+                        method="POST">
+                        <input id="name" name="name" class="form-input" type="text" placeholder="Your Name" required>
+                        <input id="email" name="email" class="form-input" type="email" placeholder="Your Email"
+                            required>
+                        <textarea id="message" name="message" class="form-input" placeholder="Your Message" required
+                            rows="5"></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Portfolio Contact">
+                        <button type="submit" class="send-btn">Send Message <i class="ri-send-plane-fill"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer reveal">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Naman <span>.</span></h3>
+                <span class="footer-copy">© 2026 Naman Patware, All Right Reserved</span>
+            </div>
+            <div class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education-contact">Education & Contact</a></li>
+            </div>
+            <div class="footer-top">
+                <a href="#home" class="scroll-top">
+                    <i class="ri-arrow-up-line"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
